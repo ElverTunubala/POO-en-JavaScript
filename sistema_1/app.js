@@ -34,7 +34,7 @@ class Usuario {
     }
   
     obtenerInfo() {
-      return Nombre `${this.nombre}, Puntos necesarios: ${this.puntosNecesarios}`;
+      return  `Nombre: ${this.nombre}, Puntos necesarios: ${this.puntosNecesarios}`;
     }
   }
   
@@ -63,3 +63,62 @@ class Usuario {
       
     }
   }
+
+class Actividad {
+  constructor(tipo, puntosOtorgados) {
+    this.tipo = tipo;
+    this.puntosOtorgados = puntosOtorgados;
+  }
+
+  completarActividad() {
+    // Lógica para completar 
+  }
+}
+
+class CategoriaProducto {
+  constructor(nombre, descripción) {
+    this.nombre = nombre;
+    this.descripción = descripción;
+  }
+
+  listarProductos() {
+    // Lógica para listar 
+  }
+}
+
+class OrdenCanje {
+  constructor(usuario, producto, fecha) {
+    this.usuario = usuario;
+    this.producto = producto;
+    this.fecha = fecha;
+  }
+
+  confirmarOrden() {
+    // Lógica para confirmar 
+  }
+
+  cancelarOrden() {
+    // Lógica para cancelar 
+  }
+}
+
+class Administrador {
+  constructor(nombre, email, clave) {
+    this.nombre = nombre;
+    this.email = email;
+    this.clave = clave;
+  }
+
+  agregarProducto() {
+    // Lógica para agregar
+  }
+
+  modificarProducto() {
+    // Lógica para modificar 
+  }
+
+  eliminarUsuario() {
+    // Lógica para eliminar 
+  }
+}
+  
