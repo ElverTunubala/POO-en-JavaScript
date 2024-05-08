@@ -1,4 +1,4 @@
-
+//sistema uno
 class Usuario {
     constructor(nombre, email, clave) {
       this.nombre = nombre;
